@@ -1,0 +1,23 @@
+.logos{
+  width: 4.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30rem;
+  color: white;
+}
+
+.navlink {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 24px;
+}
+.navlink a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}

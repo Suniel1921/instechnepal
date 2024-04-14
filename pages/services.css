@@ -1,0 +1,124 @@
+.services {
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_services_section {
+  width: 50%;
+  color: white;
+}
+.title {
+  color: #7371f9;
+  font-size: 19px;
+  font-weight: bold;
+}
+.secondryHeading {
+  margin-top: 24px;
+  margin-bottom: 34px;
+  /* color: #0f110f; */
+  color: white;
+  font-size: 3rem;
+}
+.discoBtn {
+  padding: 18px 43px;
+}
+.marginPara {
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+.para {
+  color: #353535;
+}
+
+.right_services_section {
+  width: 50%;
+  color: white;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.childCard {
+  width: calc(50% - 20px);
+  height: 34vh;
+  padding: 23px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px #0003;
+  border: 1px solid gray;
+}
+.childCard {
+  position: relative;
+  width: calc(50% - 20px);
+  height: 34vh;
+  padding: 23px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px #0003;
+  border: 1px solid gray;
+  overflow: hidden;
+}
+
+.childCard h3{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.childCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.childCard:hover::before {
+  opacity: 0.8;
+}
+
+.childCard:nth-of-type(1)::before {
+  background-image: url("/img/asset 61.png"); /* Replace with your image path */
+}
+
+.childCard:nth-of-type(2)::before {
+  background-image: url("/img/asset 62.png"); /* Replace with your image path */
+}
+
+.childCard:nth-of-type(3)::before {
+  background-image: url("/img/asset 63.png"); /* Replace with your image path */
+}
+
+.childCard:nth-of-type(4)::before {
+  background-image: url("/img/asset 64.png"); /* Replace with your image path */
+}
+
+.childCard::after {
+  content: attr(data-text); 
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.childCard:hover::after {
+  opacity: 0.8;
+}
+
+
+.serviceIcon{
+  width: 20%;
+}

@@ -1,0 +1,28 @@
+.testimonials {
+  /* margin-top: 54px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+}
+
+.left_testimonial {
+  width: 50%;
+}
+.right_testimonial {
+  width: 50%;
+}
+.left_testimonial img {
+  width: 80%;
+}
+
+
+.testimonialsCard{
+    border: 1px solid gray;
+    padding: 34px;
+    border-radius: 8px;
+}
+
+.rating{
+    width: 15%;
+}

@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.left_about{
+    width: 50%;
+
+}
+
+.aboutImg{
+    width: 80%;
+}
+.right_about{
+    width: 50%;
+
+}
+
+.aboutHeading{
+    font-size: 48px;
+}
+.aboutPara{
+    margin-top: 34px;
+}
+
+.aboutFooter{
+    color: white;
+}
+.aboutFooter a{
+    color: white;
+}
+
+.points{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

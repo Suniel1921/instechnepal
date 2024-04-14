@@ -1,0 +1,81 @@
+.contact_container {
+  color: white;
+}
+.contact_content {
+  text-align: center;
+  color: var(--whiteColor);
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.address_image img {
+  width: 34%;
+}
+
+.location {
+  display: flex;
+}
+
+.left_Contact .map {
+  width: 455px;
+  min-height: 355px;
+  border-radius: 6px;
+}
+
+.message {
+  margin-top: 56px;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.input-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.input {
+  flex: 1;
+  border: 1px solid #606060;
+  background: white;
+  background: #2a2a2a;
+  color: #b0aac0;
+  border-radius: 5px;
+  padding: 15px 44px;
+  outline: none;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 183px;
+  border: 1px solid #606060;
+  background: #2a2a2a;
+  color: #b0aac0;
+  border-radius: 5px;
+  padding: 15px 44px;
+  outline: none;
+}
+
+.sendMsgBtn {
+  width: 50%;
+  padding: 18px 18px;
+  border-radius: 8px;
+  background-color: #7371f9;
+  color: white;
+  border: none;
+  margin-bottom: 23px;
+}

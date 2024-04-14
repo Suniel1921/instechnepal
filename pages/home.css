@@ -1,0 +1,122 @@
+.main {
+  display: flex;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.homeContents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.growthText {
+  color: #7371f9;
+}
+
+.paras {
+  line-height: 34px;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 7px;
+}
+
+.mainBtn {
+  background-color: #2f323c;
+  color: white;
+  margin-bottom: 34px;
+  padding: 12px 51px;
+}
+
+.margin_para {
+  margin-top: 34px;
+}
+
+.para {
+  font-size: 20px;
+}
+/* Animation */
+
+/* .triangleAnimate {
+  position: relative;
+  animation: triangleAnimate 10s linear infinite;
+}
+
+@keyframes triangleAnimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+}
+ */
+
+/* Animation for the first logo moving up */
+.logo1Animate {
+  position: relative;
+  animation: logo1Animate 10s linear infinite;
+}
+
+@keyframes logo1Animate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px); /* Move logo1 up */
+  }
+}
+
+/* Animation for the second logo moving down */
+.logo2Animate {
+  position: relative;
+  animation: logo2Animate 10s linear infinite;
+}
+
+@keyframes logo2Animate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px); /* Move logo2 down */
+  }
+}
+
+/* Animation for logo moving left to right */
+.logo3Animate {
+  position: relative;
+  animation: logo3AnimateLR 10s linear infinite;
+  margin-top: 34px;
+}
+
+@keyframes logo3AnimateLR {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* Move logo right */
+  }
+}
+
+
+
+
+.services_component{
+  background-color: #040812;
+  padding-bottom: 53px;
+  color: white;
+
+}

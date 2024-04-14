@@ -1,0 +1,30 @@
+.teamHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 34px;
+}
+   .ourTeam {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 23px;
+  }
+  
+  .teamCard {
+    width: calc((100% - 4 * 23px) / 5);
+  }
+  
+  .teamImg{
+    width: 100%;
+    border-radius: 9px;
+  }
+  .teamImg:hover{
+    transition: scale(1.1);
+  }
+
+
+
+
+  

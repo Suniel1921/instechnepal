@@ -1,0 +1,173 @@
+/* ***********myskills section style***************** */
+
+.myskill_container {
+  background-image: url("../src/assets/bg/bg (3).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  /* margin-top: 34px; */
+}
+.myskill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+}
+
+.myskill_left {
+  width: 60%;
+}
+
+.myskill_left {
+  margin-top: 34px;
+}
+
+.myskill_right {
+  width: 50%;
+}
+.circle img {
+  width: 30%;
+}
+
+.circle .logo {
+  width: 13%;
+}
+
+.myskill_right {
+  position: relative;
+}
+
+/* circle animation   */
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 50%;
+  animation: logo 15s linear infinite;
+  transform-origin: center;
+  margin-top: 44px;
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reactjs {
+  position: relative;
+  left: 178px;
+  top: 35px;
+}
+
+.expressjs {
+  position: relative;
+  top: 231px;
+  left: -237px;
+}
+.mongodb {
+  position: relative;
+  top: 297px;
+}
+.mysql {
+  position: relative;
+  top: 200px;
+}
+
+/* child circle animation */
+.boldcircle {
+  width: 262px;
+  height: 262px;
+  border-radius: 50%;
+  border: 40px solid gray;
+  position: absolute;
+  text-align: center;
+  left: 68px;
+  top: 68px;
+  animation: reverse_animation 8s linear infinite reverse;
+  transform-origin: center;
+}
+
+@keyframes reverse_animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boldcircle img {
+  width: 18%; /*bootstrap image width */
+}
+
+.boldcircle .bootstrap {
+  width: 14%;
+}
+
+/* .boldcircle{
+    position: absolute;
+  } */
+
+.linux {
+  position: relative;
+  top: 148px;
+  left: -17px;
+}
+.nginix {
+  position: relative;
+  top: 185px;
+  left: 40px;
+}
+.aws {
+  position: relative;
+  top: 137px;
+  left: 90px;
+}
+
+.docker {
+  position: relative;
+  top: -16px;
+  left: -98px;
+}
+
+.photoshop {
+  position: relative;
+  top: 49px;
+  left: 42px;
+}
+
+.tailwind {
+  position: relative;
+  top: 25px;
+  left: -77px;
+}
+
+.js {
+  position: relative;
+  top: 34px;
+  left: -7px;
+}
+
+.bootstrap {
+  position: relative;
+  top: -67px;
+  left: 13px;
+}
+
+.myskill_left
+
+.teachHeading {
+  margin-top: 23px;
+  margin-bottom: 34px;
+  font-size: 45px;
+}
+
+.techpara, .teachHeading{
+    color: white;
+}
