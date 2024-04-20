@@ -1,3 +1,67 @@
+.serviceHeading{
+  margin-top: 33px;
+  font-size: 23px;
+  margin-bottom: 13px;
+  
+}
+.serviceText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.word {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  white-space: nowrap; /* Prevents wrapping */
+  width: max-content; /* Takes up full width */
+
+}
+
+.active {
+  opacity: 1;
+  animation: fadeInOut 4s linear forwards;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  25%, 75% {
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeNavbar a{
+  color: white;
+}.homeNavbar a:hover{
+  color: #7371f9;
+}
+
+.homeContainer {
+  /* background-image: url('/img/mainbg2.jpg');  */
+  /* background: url('/img/waveimg.jpg'); */
+  background: url('/img/waveimg1.png');
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+}
+
 .main {
   display: flex;
   height: 80vh;
@@ -31,7 +95,8 @@
 }
 
 .mainBtn {
-  background-color: #2f323c;
+  background-color: #7371f9;
+  /* background-color: #2f323c; */
   color: white;
   margin-bottom: 34px;
   padding: 12px 51px;
@@ -119,4 +184,28 @@
   padding-bottom: 53px;
   color: white;
 
+}
+
+
+
+
+/* ********************************** media queries ********************************** */
+
+@media screen and (max-width: 900px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  .paras {
+  text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 580px) {
+  .heading {
+    font-size: 2rem;
+ 
+}
+  
 }

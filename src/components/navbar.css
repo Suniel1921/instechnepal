@@ -1,23 +1,107 @@
-.logos{
-  width: 4.5%;
-}
+/* navbar.css */
 
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 30rem;
-  color: white;
+  padding: 10px 20px;
+  /* position: relative;  */
+ 
+}
+
+.logos {
+  width: 100px;
+  height: auto;
 }
 
 .navlink {
+  list-style: none;
   display: flex;
-  gap: 2rem;
   align-items: center;
-  padding: 24px;
+
 }
-.navlink a{
-    list-style: none;
-    text-decoration: none;
-    color: white;
+
+.navlink li {
+  position: relative;
+}
+
+.navlink a {
+  /* color: #fff; */
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.navlink a:hover {
+  /* color: #7371f9; */
+}
+.menu_child{
+  color: white;
+  cursor: pointer;
+}
+.mega-menu :hover{
+  color: black;
+  transition: all 0.4s linear ease;
+}
+
+.mega-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px; 
+  background-color: #7371f9;
+  padding: 10px;
+  display: none; 
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: flex-start; /* Center items horizontally */
+  gap: 3rem;
+  border-top: 2px solid #d8d329;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navlink li:hover .mega-menu {
+  display: flex;
+  animation: slideIn 0.3s ease;
+}
+
+.mega-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.mega-menu a:hover {
+  color: black;
+}
+
+/* @keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.hamburgerMenu {
+  color: #fff;
+  font-size: 24px;
+  display: none;
+}
+
+
+
+@media screen and (max-width: 660px) {
+  .navlink{
+    display: none;    
+  }
+
+  .right_ourProcess img {
+    width: 100%;
+}
+  
 }

@@ -11,15 +11,9 @@
   padding-right: 20px;
   max-width: 1250px;
   margin: auto;
+  overflow: hidden;
 }
 
-
-.homeContainer {
-  background-image: url('/img/mainbg2.jpg'); 
-  background-size: cover; 
-  background-position: center; 
-  height: 100vh; 
-}
 
 
 

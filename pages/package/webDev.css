@@ -1,0 +1,63 @@
+.webDevNavbar a{
+  color: white;
+}
+
+.webDevBg{
+  /* background-image: url('./img/asset 62.png'); */
+  background-image: url('/img/mainbg2.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+.webDevContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+   
+  }
+
+  .pricingpara{
+    text-align: center;
+  }
+  
+.pricing {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    /* background: url('/img/asset 52.png'); */
+  }
+  
+  .webDevTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .webDevTable th {
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+    text-align: center; /* Center the text in table headings */
+  }
+  
+  .webDevTable td {
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+  }
+  
+  .webDevTable th {
+    /* background-color: #f2f2f2; */
+    text-align: left;
+  }
+  
+  .webDevTable td {
+    text-align: center;
+  }
+  
+  .webDevTable th:first-child,
+  .webDevTable td:first-child {
+    width: 40%; 
+  }
+  

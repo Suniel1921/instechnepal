@@ -1,8 +1,11 @@
 import React from 'react'
 import './services.css'
+import Navbar from '../src/components/Navbar'
 const Services = () => {
     return (
         <>
+       <div className='serviceBg'>
+       {/* <div className='serviceNavbar'><Navbar/></div> */}
             <div className='container'>
                 <div className='services'>
                     <div className="left_services_section">
@@ -42,6 +45,7 @@ const Services = () => {
                 </div>
 
             </div>
+       </div>
         </>
     )
 }

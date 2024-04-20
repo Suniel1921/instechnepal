@@ -6,6 +6,10 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Services from '../pages/Services';
 import Preloader from './components/Preloader';
+import WebDev from '../pages/package/WebDev';
+import Layout from './components/layout/Layout';
+import Seo from '../pages/package/Seo';
+import SocialMedia from '../pages/package/SocialMedia';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -23,15 +27,21 @@ const App = () => {
     ) : (
       <>
         <Router>
-          <div className='homeContainer'>
-            <Navbar />
+          {/* <div className='homeContainer'> */}
+            {/* <Navbar /> */}
             <Routes>
+              <Route path='/' element={<Layout/>}>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/services' element={<Services />} />
+              <Route path='/service/web-development' element={<WebDev/>}/>
+              <Route path='/service/seo' element={<Seo/>}/>
+              <Route path='/service/social-media' element={<SocialMedia/>}/>
+              <Route/>
+              </Route>
             </Routes>
-          </div>
+          {/* </div> */}
         </Router>
       </>
     )

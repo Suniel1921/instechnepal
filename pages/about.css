@@ -1,13 +1,24 @@
+.aboutNavbar a{
+    color: #fff;
+}
+
+.aboutBg{
+    background-image: url('./img/asset 58.png');
+    background-position: center;
+    background-size: cover;
+
+}
 .about{
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
     margin-top: 40px;
+ 
 }
 
 .left_about{
-    width: 50%;
+    /* width: 50%; */
 
 }
 
@@ -15,7 +26,8 @@
     width: 80%;
 }
 .right_about{
-    width: 50%;
+    width: 100%;
+    /* width: 50%; */
 
 }
 

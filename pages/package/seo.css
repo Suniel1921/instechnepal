@@ -1,64 +1,19 @@
-/* price.css */
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
+.seoNavbar a{
+    color: white;
 }
 
-.price {
-    text-align: center;    
-}
-
-.title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.secondaryHeading {
-    font-size: 40px;
+.seoBg{ 
+    background-image: url('/img/mainbg2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
 
-/* for card main heading */
-.topCardData {
-    text-align: center;
-   
-  }
-  
-  .topCardData h5 {
-    font-size: 24px;
-    margin-bottom: 5px;
-  }
-  
-  .topCardData p {
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 10px;
-  }
-  
-  .topCardData h3 {
-    font-size: 28px;
-    color: #7371f9;
-    margin-bottom: 20px;
-  }
-  
 
-.priceContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 34px;
-    background-image: url('/img/asset 59.png');
-    /* background-image: url('/img/asset 54.png'); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.priceCard {
+.seo_priceCard {
     width: calc(33.33% - 20px);
-    height: 84vh;
+    /* height: 2110px; */
     /* background-color: #f40000; */
 
     border-radius: 10px;
@@ -70,38 +25,37 @@
     border: 1px solid gray;
 }
 
-.priceCard.active {
+.seo_priceCard.active {
     display: block; /* Show the active card */
 }
 
-.priceCard h5 {
+.seo_priceCard h5 {
     margin-top: 0;
 }
 
-.priceCard hr {
+.seo_priceCard hr {
     margin: 10px 0;
     border: none;
     border-top: 1px solid #ddd;
 }
 
-.featuresCardData p {
+
+.seo_featuresCardData p {
     margin: 5px 0;
-    line-height: 40px;
+    line-height: 25px;
 }
 
-
-/* for tick with blue color */
-.featuresCardData {
-    padding-left: 15px; 
+.seo_featuresCardData{
+    padding-left: 15px;
 }
 
-.featuresCardData p {
+.seo_featuresCardData p {
     position: relative;
     margin: 10px 0;
     padding-left: 20px; /* Adjust as needed */
 }
 
-.featuresCardData p:before {
+.seo_featuresCardData p:before {
     content: "\2713"; /* Checkmark Unicode character */
     color: #007bff; /* Tick mark color */
     font-size: 18px; /* Tick mark size */
@@ -111,10 +65,15 @@
     transform: translateY(-50%);
 }
 
-/* for tick with blue color end here */
-
-
-
+.seo_featuresCardData .uncheck:before {
+    content: "\2717"; /* Cross mark Unicode character */
+    color: red; /* Cross mark color */
+    font-size: 18px; /* Cross mark size */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 
@@ -122,8 +81,9 @@
 
 /* Media Query for 1100px and below */
 @media screen and (max-width: 1100px) {
-    .priceCard {
+    .seo_priceCard {
         width: 100%; /* Make cards full width */
+        display: none; /* Hide cards by default */
     }
 
     .priceButtons {
@@ -147,13 +107,8 @@
         color: white;
     }
 
-    /* Hide cards when below 1100px */
-    .priceCard {
-        display: none;
-    }
-
-    /* Show active card when below 1100px */
-    .priceCard.active {
+    /* Show active card when selected */
+    .seo_priceCard.active {
         display: block;
     }
 }
@@ -165,7 +120,7 @@
     }
 
     /* Show all cards when above 1100px */
-    .priceCard {
+    .seo_priceCard {
         width: calc(33.33% - 20px);
         display: block;
     }

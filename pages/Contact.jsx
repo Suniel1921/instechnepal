@@ -4,6 +4,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import './contact.css'
 import Footer from '../src/components/Footer';
+import Navbar from '../src/components/Navbar';
 
 
 const Contact = () => {
@@ -58,6 +59,8 @@ const Contact = () => {
 
   return (
     <>
+      <div className='contactBg'>
+        <div className='contactNavbar'><Navbar/></div>
       <div className="contact_container">
         <div className="container contact">
           <div className='contact_content'>
@@ -130,9 +133,9 @@ const Contact = () => {
         </div>
 
       </div>
+      </div>
 
-      <div className='aboutFooter services_component'><Footer/></div>
-
+      
 
     </>
   )
