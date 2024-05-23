@@ -182,4 +182,17 @@
   
 }
 
+@media screen and (max-width: 600px) {
+  .myskill_left {
+    width: 100%;
+}
+  .teachHeading {
+    font-size: 22px;
+}
+.myskill_right {
+  width: 100%;
+}
+  
+}
+
 

@@ -1,12 +1,9 @@
-/* navbar.css */
-
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
-  /* position: relative;  */
- 
+  /* position: relative; */
 }
 
 .logos {
@@ -18,7 +15,6 @@
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .navlink li {
@@ -35,11 +31,13 @@
 .navlink a:hover {
   /* color: #7371f9; */
 }
-.menu_child{
+
+.menu_child {
   color: white;
   cursor: pointer;
 }
-.mega-menu :hover{
+
+.mega-menu :hover {
   color: black;
   transition: all 0.4s linear ease;
 }
@@ -47,12 +45,11 @@
 .mega-menu {
   position: absolute;
   top: calc(100% + 5px);
-  left: 50%;
-  transform: translateX(-50%);
-  width: 600px; 
+  right: 0; /* Change from left: 50% to right: 0 */
+  width: 600px;
   background-color: #7371f9;
   padding: 10px;
-  display: none; 
+  display: none;
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: flex-start; /* Center items horizontally */
   gap: 3rem;
@@ -63,7 +60,7 @@
 
 .navlink li:hover .mega-menu {
   display: flex;
-  animation: slideIn 0.3s ease;
+  /* animation: slideIn 0.5s ease; */
 }
 
 .mega-menu a {
@@ -73,19 +70,20 @@
 }
 
 .mega-menu a:hover {
-  color: black;
+  color: #D52027;
 }
 
-/* @keyframes slideIn {
+/* Keyframes for the animation */
+@keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateX(100%); /* Start from outside the screen */
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0%); /* Move in to the screen */
   }
-} */
+}
 
 .hamburgerMenu {
   color: #fff;
@@ -93,15 +91,48 @@
   display: none;
 }
 
-
-
 @media screen and (max-width: 660px) {
-  .navlink{
-    display: none;    
+  .navlink {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0; /* Change from left: 0 to right: 0 */
+    width: 100%;
+    /* background-color: #00f; */
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+  }
+
+  .hamburgerMenu {
+    display: block;
+    font-size: 34px;
   }
 
   .right_ourProcess img {
     width: 100%;
-}
-  
+  }
+
+  .navlink.show {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 23px;
+    font-size: 23px;
+    padding: 23px;
+    animation: slideIn 0.5s ease;
+  }
+  /* Keyframes for the animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(100%); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
 }

@@ -6,9 +6,9 @@ const TechStack = () => {
         <>
             <div className="myskill_container">
                 <div className="container myskill">
-                    <div className="myskill_left">
-                        <p className=' title'><strong className='strong'>TECHNOLOGY WE USE</strong></p>
-                        <h3 className='teachHeading'>We Use Latest Tech Stack for You...</h3>
+                    <div className="myskill_left" data-aos="zoom-in">
+                        <p className=' title'><strong className='strong'>TECHNOLOGIES WE USE</strong></p>
+                        <h3 className='teachHeading'>We Use Latest Tech Stack for Your Business...</h3>
                         <p className='techpara'>We use the latest technology stack to develop custom, scalable solutions that meet your unique needs. Our adaptability to evolving trends ensures we consistently deliver exceptional results for your business.</p>
 
                     </div>
@@ -33,9 +33,6 @@ const TechStack = () => {
                                 <img className='js' src="/language/js.png" alt="" />
                                 <img className='bootstrap' src="/language/bootstrap.png" alt="" />
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>

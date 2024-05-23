@@ -1,7 +1,5 @@
-// Price.js
 import React, { useState } from "react";
 import "./price.css";
-
 const Price = () => {
   const [selectedPlan, setSelectedPlan] = useState("Basic"); // State to keep track of selected plan
 
@@ -15,7 +13,7 @@ const Price = () => {
         <div className="price">
           <p className="title">OUR PRICING</p>
           <h3 className="secondaryHeading">
-            Choose Best Plan For Your Business
+            Choose Best Plan For Your Business Wordpress
           </h3>
           {/* Buttons for smaller screens */}
           <div className="priceButtons">
@@ -46,20 +44,9 @@ const Price = () => {
             <div className="topCardData">
               <h5>Basic Plan</h5>
               <p>Best For Personal Use</p>
-              <h3>RS. 25000</h3>
+              <h3>RS. 35,000</h3>
             </div>
             <hr />
-            {/* <div className='featuresCardData'>
-                          <p>&#10003; Free Domain & Hosting - 1 Year</p>
-                          <p>&#10003; Responsive Design</p>
-                          <p>&#10003; Unlimited Bandwidth</p>
-                          <p>&#10003; Basic Social Media Integration</p>
-                          <p>&#10003; Dynamic website up to 10 Pages</p>
-                          <p>&#10003; Free SSL Certificate</p>
-                          <p>&#10003; Basic SEO Optimization</p>
-                          <p>&#10003; Support & Maintenance- 3 months</p>
-                          <p>&#10003; Basic Admin Panel</p>
-                          </div> */}
 
             <div className="featuresCardData">
               <p>Free Domain & Hosting - 1 Year</p>
@@ -81,7 +68,7 @@ const Price = () => {
             <div className="topCardData">
               <h5>Premium Plan</h5>
               <p>Best For Large Enterprises</p>
-              <h3>RS. 55000</h3>
+              <h3>RS. 70,000</h3>
             </div>
             <hr />
             <div className="featuresCardData">
@@ -103,12 +90,10 @@ const Price = () => {
               selectedPlan === "Premium" ? "active" : ""
             }`}
           >
-            
-
             <div className="topCardData">
               <h5>Advanced Plan</h5>
               <p>Best For Medium Businesses</p>
-              <h3>RS. 45000</h3>
+              <h3>RS. 50,000</h3>
             </div>
             <hr />
             <div className="featuresCardData">

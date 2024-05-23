@@ -25,6 +25,26 @@
 
 .rating{
     width: 15%;
+    margin-bottom: 12px;
+}
+.testimonial_User{
+  width: 10%;
+  border-radius: 100%;
+
+}
+
+.testimonials_usersDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonialsCard a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+
 }
 
 
@@ -41,6 +61,14 @@
   .right_testimonial {
     width: 80%;
   }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .secondryHeading {
+    font-size: 25px;
+}
   
 }
 

@@ -1,0 +1,64 @@
+.careerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.career{
+    background-image: url('/img/asset 54.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.leftCareer{
+    width: 50%;
+}
+.careerHeading{
+    margin-top: 34px;
+    margin-bottom: 34px;
+    font-size: 48px;
+}
+.rightCareer{
+    width: 50%;    
+}
+
+.rightCareer img{
+    width: 100%;
+}
+
+.openJobSection{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.openJobSection h2{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+
+
+
+/* ------------------------------------------- */
+
+@media screen and (max-width: 810px) {
+    .careerContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+       flex-wrap: wrap;
+       gap: 3rem;
+    }
+
+    .rightCareer{
+        width: 100%;    
+    }
+    .leftCareer{
+        width: 100%;
+    }
+    
+}

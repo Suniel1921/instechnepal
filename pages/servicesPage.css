@@ -1,0 +1,34 @@
+.servicesPageNavbar a{
+    color: #fff;
+}
+
+.servicePage{
+    color: white;
+}
+
+
+.servicePageBg{
+    /* background-image: url('/img/asset-65.png'); */
+    background-color: #040812;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.servicePage_Heading{
+    font-size: 48px;
+}
+.servicePage_Para{
+    margin-top: 34px;
+}
+
+.right_servicePage{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.what_we_do{
+    text-align: center;
+}

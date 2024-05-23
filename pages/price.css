@@ -58,7 +58,7 @@
 
 .priceCard {
     width: calc(33.33% - 20px);
-    height: 84vh;
+    /* height: 100vh; */
     /* background-color: #f40000; */
 
     border-radius: 10px;
@@ -121,10 +121,28 @@
 
 
 /* Media Query for 1100px and below */
+
+@media screen and (max-width: 1380px) {
+    .priceCard {
+        height: 100vh;
+    }
+    
+    
+}@media screen and (max-width: 1350px) {
+    .priceCard {
+        height: 120vh;
+    }
+    
+    
+}
+
+
 @media screen and (max-width: 1100px) {
     .priceCard {
         width: 100%; /* Make cards full width */
+        height: 100vh;
     }
+    
 
     .priceButtons {
         display: flex;
@@ -169,4 +187,16 @@
         width: calc(33.33% - 20px);
         display: block;
     }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .secondaryHeading {
+        font-size: 28px;
+        margin-top: 12px;
+        margin-bottom: 22px;
+
+    }
+    
 }

@@ -15,9 +15,13 @@
   align-items: center;
 }
 
+
+
 .left_services_section {
   width: 50%;
   color: white;
+  background: url('/img/asset 60.png');
+
 }
 .title {
   color: #7371f9;
@@ -34,6 +38,15 @@
 .discoBtn {
   padding: 18px 43px;
 }
+
+.discoBtn:hover{
+  background-color: #7371f9;
+  color: white;
+  transition: all 0.4s ease;
+
+  
+}
+
 .marginPara {
   margin-top: 24px;
   margin-bottom: 34px;
@@ -73,13 +86,19 @@
   border: 1px solid gray;
   overflow: hidden;
 }
+.childCard:hover{
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
 
 .childCard h3{
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
-.childCard::before {
+/* .childCard::before {
   content: "";
   position: absolute;
   top: 0;
@@ -90,29 +109,29 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 1;
-}
+} */
 
-.childCard:hover::before {
+/* .childCard:hover::before {
   opacity: 0.8;
-}
-
+} */
+/* 
 .childCard:nth-of-type(1)::before {
-  background-image: url("/img/asset 61.png"); /* Replace with your image path */
+  background-image: url("/img/asset 61.png"); 
 }
 
 .childCard:nth-of-type(2)::before {
-  background-image: url("/img/asset 62.png"); /* Replace with your image path */
+  background-image: url("/img/asset 62.png"); 
 }
 
 .childCard:nth-of-type(3)::before {
-  background-image: url("/img/asset 63.png"); /* Replace with your image path */
+  background-image: url("/img/asset 63.png"); 
 }
 
 .childCard:nth-of-type(4)::before {
-  background-image: url("/img/asset 64.png"); /* Replace with your image path */
-}
+  background-image: url("/img/asset 64.png"); 
+} */
 
-.childCard::after {
+/* .childCard::after {
   content: attr(data-text); 
   position: absolute;
   bottom: 20px;
@@ -126,13 +145,12 @@
 
 .childCard:hover::after {
   opacity: 0.8;
-}
+} */
 
 
 .serviceIcon{
   width: 20%;
 }
-
 
 
 
@@ -148,7 +166,8 @@
     margin-top: 34px;
     padding-left: 20px;
     padding-right: 20px;
-  } .left_services_section {
+  }
+   .left_services_section {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;

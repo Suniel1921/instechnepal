@@ -4,7 +4,7 @@
 
 .contactBg{
   /* background-image: url('./img/asset 61.png'); */
-  background-color: #2a2a2a;
+  background-image: url('/img/mainbg2.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -27,9 +27,19 @@
   margin-top: 44px;
 }
 
-.address_image img {
-  width: 34%;
+.address_image .location_icon{
+font-size: 24px;
+color: #7371f9;
 }
+
+.address_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
 
 .location {
   display: flex;
@@ -91,3 +101,65 @@
   border: none;
   margin-bottom: 23px;
 }
+
+
+
+
+
+/* -------------------media queries---------------------- */
+
+@media screen and (max-width: 1000px) {
+  .message {
+    margin-top: 56px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .left_Contact .map {
+    width: 100%;
+    
+  }
+  
+}
+
+.errors{
+  color: red;
+}
+
+
+
+
+/* --------------------------media queries------------------------ */
+
+@media screen and (max-width: 970px) {
+  .input{
+    padding: 15px 69px;
+    width: 90%;
+  }
+  
+}
+
+@media screen and (max-width: 730px) {
+  .address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.input{
+  padding: 15px 69px;
+}
+
+}
+  

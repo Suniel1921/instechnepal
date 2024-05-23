@@ -55,7 +55,7 @@ const OurProcess = () => {
 
                         </div>
                     </div>
-                    <div className="right_ourProcess">
+                    <div className="right_ourProcess" data-aos="fade-left">
                         <img src="/img/process.png" alt="" />
                     </div>
                 </div>

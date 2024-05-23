@@ -3,7 +3,7 @@
 }
 
 .aboutBg{
-    background-image: url('./img/asset 58.png');
+    background-image: url('/img/asset-99.png');
     background-position: center;
     background-size: cover;
 
@@ -51,3 +51,5 @@
     flex-direction: column;
     gap: 12px;
 }
+
+

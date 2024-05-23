@@ -76,6 +76,66 @@
 
 
 
+.faqSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30rem; */
+  }
+  .faqsHeading{
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+
+  .faqsSection{
+    background-color: #7371f9;
+    margin: 34px;
+    padding: 14px;
+    cursor: pointer;
+  }
+  
+  .leftFaqs{
+    width: 50%;
+  
+  }
+  .rightFaqs{
+    width: 30%;
+    background-color: white;
+    height: 363px;
+    text-align: center;
+    background-image: url('/img/layer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+  }
+  .rightFaqs h3{
+    margin-top: 56px;
+  }
+  .faqsBox p{
+    margin-top: 13px;
+  }
+
+  .faqsBtn{
+    background-color: #7371f9;
+    padding: 15px 44px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+
+  }
+  
+  
+
+
+
+
+
+
 
 
 

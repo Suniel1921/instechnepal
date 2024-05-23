@@ -19,32 +19,26 @@ const About = () => {
               We Have Creative Team To Build Your Business Better
             </h3>
             <p className="aboutPara">
-              Proin laoreet leo vel enim gravida, at porttitor metus ultricies.
-              Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex
-              elit mattis sapien, non molestie felis neque et nulla. Sed euismod
-              turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.
+            At the heart of our operations lies a dynamic and innovative team dedicated to sculpting success for your business. With a potent blend of creativity, expertise, and passion, we strive to craft bespoke solutions tailored to your unique needs. Trust our seasoned professionals to navigate the complexities of the market landscape and propel your business towards unparalleled growth and prosperity.
             </p>
 
             <div className="points">
               <div>
                 <h3>Quality Assurance</h3>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugit ad debitis sequi quia!.
+                Ensuring excellence through rigorous testing and commitment to standards.
                 </p>
               </div>
               <div>
                 <h3>Certified professionals</h3>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugit ad debitis sequi quia!.
+                Trusted experts with certified qualifications ensuring top-notch services and solutions.
                 </p>
               </div>
               <div>
                 <h3>Real Experiences</h3>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugit ad debitis sequi quia!.
+                Genuine encounters providing authentic insights and invaluable learning opportunities.
                 </p>
               </div>
             </div>
@@ -53,7 +47,6 @@ const About = () => {
        </div>
       </div>
       <div className="services_component">
-        {" "}
         <OurTeam />
       </div>
     </>

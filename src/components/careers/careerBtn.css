@@ -1,0 +1,64 @@
+.careerBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careerBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.careerBtn button {
+    background-color: transparent;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    font-size: 24px;
+}
+
+.careerBtn button:hover {
+    color: #007bff;
+}
+
+.careerBtn button.active {
+    color: #007bff;
+}
+
+.careerBtn button.active .underline {
+    width: 100%;
+}
+
+.underline {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: all 0.3s ease-in-out;
+}
+
+.careerContent {
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

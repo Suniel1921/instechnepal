@@ -1,3 +1,4 @@
+/* service we provide text animation start */
 .serviceHeading{
   margin-top: 33px;
   font-size: 23px;
@@ -18,24 +19,24 @@
   transition: opacity 0.5s ease-in-out;
   white-space: nowrap; /* Prevents wrapping */
   width: max-content; /* Takes up full width */
-
+  
 }
 
-.active {
+.animate {
   opacity: 1;
   animation: fadeInOut 4s linear forwards;
 }
 
 @keyframes fadeInOut {
   0%, 100% {
-      opacity: 0;
+    opacity: 0;
   }
   25%, 75% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
-
+/* service we provide text animation end */
 
 
 
@@ -55,7 +56,6 @@
 
 .homeContainer {
   /* background-image: url('/img/mainbg2.jpg');  */
-  /* background: url('/img/waveimg.jpg'); */
   background: url('/img/waveimg1.png');
   background-size: cover; 
   background-position: center; 
@@ -72,13 +72,19 @@
 
 .homeContents {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   flex-direction: column;
 }
 
 .growthText {
+  /* color: #D52027 */
   color: #7371f9;
+  ;
+}
+
+.growthCenter{
+  text-align: center;
 }
 
 .paras {
@@ -95,8 +101,8 @@
 }
 
 .mainBtn {
-  background-color: #7371f9;
-  /* background-color: #2f323c; */
+  /* background-color: #184B9F; */
+  background-color: #D52027;
   color: white;
   margin-bottom: 34px;
   padding: 12px 51px;
@@ -202,10 +208,20 @@
 }
 
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 700px) {
+  .growthCenter {
+    text-align: start;
+}
   .heading {
-    font-size: 2rem;
- 
+    font-size: 26px; 
+}
+.logo1Animate,.logo2Animate{
+  display: none;
 }
   
 }
+
+
+
+
+

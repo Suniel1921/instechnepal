@@ -5,35 +5,19 @@ const OurTeam = () => {
     return (
         <div className="container">
         <div className='teamHeading'>
-                    <p className='title'>OUR TEAM</p>
-                    <h3 className='secondryHeading'>MEET OUR TEAM</h3>
+                    {/* <p className='title'>MEET FOUNDER OF NEPAL TECH INNOVATIONS</p> */}
+                    {/* <h3 className='secondryHeading'>MEET FOUNDER OF NEPAL TECH INNOVATIONS</h3> */}
                 </div>
             <div className="ourTeam">
-                <div className="teamCard">
-                    <img className='teamImg' src="./img/sunitamam.jpg" alt="" />
-                    <h4>Sunita Dulal</h4>
-                    <p>Front-end Developer</p>
-                </div>
-                <div className="teamCard">
-                    <img className='teamImg' src="./img/sunil.png" alt="" />
-                    <h4>Suniel Sharma</h4>
-                    <p>Android Developer</p>
-                </div>
-                <div className="teamCard">
-                    <img className='teamImg' src="./img/nabinDai.jpg" alt="" />
-                    <h4>Nabin Choudhary</h4>
-                    <p>FullStack Developer</p>
-                </div>
-                <div className="teamCard">
-                    <img className='teamImg' src="./img/sirumam.jpg" alt="" />
-                    <h4>Siru siru</h4>
-                    <p>Digital Marketer</p>
-                </div>
-                <div className="teamCard">
-                    <img className='teamImg' src="./img/saneepDai.jpg" alt="" />
-                    <h4>Sanjeep </h4>
-                    <p>Sr. Graphic Designer</p>
-                </div>
+                {/* <div className="teamCard">
+                    <img className='teamImg' src="./img/rabinsubedi.jpg" alt="founder of Nepal Tech" />
+                    <h4>Rabin Subedi</h4>
+                    <p>found of Nepal Tech</p>
+                </div> */}
+               
+               
+               
+                
             </div>
         </div>
     );

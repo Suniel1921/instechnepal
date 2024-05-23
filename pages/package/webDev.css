@@ -6,6 +6,7 @@
   /* background-image: url('./img/asset 62.png'); */
   background-image: url('/img/mainbg2.jpg'); 
   background-size: cover;
+  color: white;
   background-position: center;
 }
 .webDevContent {

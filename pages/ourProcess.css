@@ -81,4 +81,12 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .secondryHeading {
+    font-size: 2rem;
+  }
+  
+}
+
+
 
