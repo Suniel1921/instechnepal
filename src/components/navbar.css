@@ -111,6 +111,28 @@
     font-size: 34px;
   }
 
+  .mega-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    width: 200%; /* Change width to 100% */
+    max-width: 900px; /* Set maximum width to 600px */
+    background-color: #7371f9;
+    padding: 30px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+    border-top: 2px solid #d8d329;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+  }
+
+  .navbar{
+    z-index: 0;
+  }
+
   .right_ourProcess img {
     width: 100%;
   }

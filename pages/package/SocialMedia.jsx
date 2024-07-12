@@ -91,7 +91,7 @@ const SocialMedia = () => {
               <div className="topCardData">
                 <h5>Basic Plan</h5>
                 <p>Best For Personal Use</p>
-                <h3>Rs.9,999/months</h3>
+                <h3>Rs.11,999/months</h3>
               </div>
               <hr />
               <div className="socialMedia_featuresCardData">
@@ -116,7 +116,7 @@ const SocialMedia = () => {
               <div className="topCardData">
                 <h5>Premium Plan</h5>
                 <p>Best For Large Enterprises</p>
-                <h3>Rs 14,999/months</h3>
+                <h3>Rs 15,999/months</h3>
               </div>
               <hr />
               <div className="socialMedia_featuresCardData">

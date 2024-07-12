@@ -25,7 +25,7 @@ const App = () => {
     // Simulate loading data for 2 seconds
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return loading ? (

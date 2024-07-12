@@ -77,7 +77,7 @@ const Contact = () => {
                   <FaLocationDot className="location_icon" />
                   <div className="address_content">
                   <h2>Address</h2>
-                  <p className="subPara">khumaltar,Lalitpur,Nepal</p>
+                  <p className="subPara">kupandole,Lalitpur,Nepal</p>
                 </div>
                 </div>
                 
@@ -87,7 +87,7 @@ const Contact = () => {
                   <FaPhone className="location_icon" />
                   <div className="address_content">
                     <h2>Phone</h2>
-                    <p className="subPara">+977 01-5230150</p>
+                    <p className="subPara">+977 9807865665</p>
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                   <MdMarkEmailUnread className="location_icon"/>
                   <div className="address_content">
                   <h2>Email</h2>
-                  <p className="subPara">info@nepaltechinnov.com</p>
+                  <p className="subPara">info@instechnepal.com</p>
                 </div>
                 </div>
               
@@ -106,10 +106,11 @@ const Contact = () => {
             <div className="message" data-aos="fade-right">
               <div className="left_Contact">
                 <div className="location_maps">
-                  <iframe
+                  {/* <iframe
                     className="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7068.3188449049985!2d85.31542489668333!3d27.650538916960784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17000477c865%3A0xc8d8ea8f33bee317!2sNepalTech%20Innovations%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1713871169268!5m2!1sen!2snp"
-                  ></iframe>
+                  ></iframe> */}
+                  <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594655.2258660616!2d81.48850214216169!3d28.376818160020555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49bfc5375227a0ed%3A0x8f0b0709d7e5f7e1!2sIns%20Technology!5e0!3m2!1sen!2snp!4v1717040522189!5m2!1sen!2snp"></iframe>
                 </div>
               </div>
 

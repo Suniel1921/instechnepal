@@ -2,7 +2,7 @@ import React from 'react'
 
 const GraphicCareer = () => {
     const openEmail = () => {
-        window.location.href = 'mailto:info@nepaltechinnov.com';
+        window.location.href = 'mailto:info@instechnepal.com';
       };
   return (
     <>

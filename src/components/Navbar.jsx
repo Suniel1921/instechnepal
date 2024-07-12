@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <Link to={'/'}>
-                <img className='logos' src="/img/nepalTechlogopng.png" alt="mainLogo" />
+                <img className='logos' src="/img/logo.png" alt="mainLogo" />
             </Link>
             <ul className={`navlink ${menu ? 'show' : ''}`}>
                 <li>

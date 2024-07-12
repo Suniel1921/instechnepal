@@ -10,23 +10,23 @@ const Testimonials = () => {
   const navigate = useNavigate();
   const testimonials = [
     {
-      text: "Nepal Tech Innovations exceeded our expectations with the website they developed for Om Shree Food . Not only is it visually stunning, but it's also user-friendly and functional. Our customers love the interface, and it has significantly improved our online presence. Thank you, Nepal Tech, for your exceptional work.",
-      website : 'omfood',
-      user: "Om Food",
+      text: "Ins Technology exceeded our expectations with the website they developed for Hamro Rooms . Not only is it visually stunning, but it's also user-friendly and functional. Our customers love the interface, and it has significantly improved our online presence. Thank you, Ins Tech, for your exceptional work.",
+      website : 'Hamro Rooms',
+      user: "Suniel Sharma",
       rating: "/img/rating.png",
-      image: "/img/omfood.png"
+      image: "/img/asset 22.png"
     },
     {
-      text: "Working with NepalTech was a game-changer for my business. They not only built us a powerful custom application but also provided exceptional support throughout. Their dedication and professionalism exceeded our expectations.",
-      user: "Real Estate Innovations",
+      text: "Working with Ins Technology was a game-changer for my business. They not only built us a powerful custom application but also provided exceptional support throughout. Their dedication and professionalism exceeded our expectations.",
+      user: "ICDO",
       rating: "./img/rating.png",
-      image: "/img/realstate.png"
+      image: "/img/asset 58.png"
     },
     {
-      text: "NepalTech has been an invaluable partner for our business. From designing captivating graphics to executing effective digital marketing strategies, they've helped us achieve remarkable growth.",
-      user: "Chamling Real Estate",
+      text: "Ins Technology has been an invaluable partner for our business. From designing captivating graphics to executing effective digital marketing strategies, they've helped us achieve remarkable growth.",
+      user: "Chaha Tea",
       rating: "./img/rating.png",
-      image: "/img/chamling.png"
+      image: "/img/asset 49.png"
     }
   ];
 

@@ -42,12 +42,6 @@
 
 
 
-
-
-
-
-
-
 .homeNavbar a{
   color: white;
 }.homeNavbar a:hover{
@@ -61,6 +55,28 @@
   background-position: center; 
   height: 100vh; 
 }
+
+
+
+/* this code is for background vdo start */
+
+/* .homeContainer {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+} */
+
+/* this code is for background vdo end */
 
 .main {
   display: flex;
@@ -101,8 +117,8 @@
 }
 
 .mainBtn {
-  /* background-color: #184B9F; */
-  background-color: #D52027;
+  background-color: #184B9F;
+  /* background-color: #D52027; */
   color: white;
   margin-bottom: 34px;
   padding: 12px 51px;
@@ -224,4 +240,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.water-drop {
+  width: 20px;
+  height: 20px;
+  background: #007bff; /* Or any color you want */
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none; /* Prevents the element from affecting mouse events */
+  animation: ripple 0.5s ease-out forwards;
+  transform: translate(-50%, -50%); /* Center the element */
+  z-index: 999; /* Ensure the water drop appears above other content */
+}
+
+
+@keyframes ripple {
+  0% {
+      transform: scale(0);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(2);
+      opacity: 0;
+  }
+}
 

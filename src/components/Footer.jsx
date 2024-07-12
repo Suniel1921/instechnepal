@@ -17,7 +17,7 @@
 //           </div>
 
 //           <div className="owner">
-//             <p>Nepal Tech Innovations</p>
+//             <p>Ins Technology</p>
 //           </div>
 //           <div className="socailmediaIcon">
 //             <Link to={'https://www.facebook.com/nepaltechinnov'} target="_blank"><p><FaFacebookSquare /></p></Link>
@@ -88,20 +88,20 @@ const Footer = () => {
           </div>
 
           <div className="owner">
-            <p>Nepal Tech Innovations</p>
+            <p>Ins Technology</p>
           </div>
           <div className="socailmediaIcon">
-            <Link to={'https://www.facebook.com/nepaltechinnov'} target="_blank">
+            <Link to={'https://www.facebook.com/instechcraft'} target="_blank">
               <p>
                 <FaFacebookSquare />
               </p>
             </Link>
-            <Link to={'https://www.instagram.com/nepaltechinnov'} target="_blank">
+            <Link to={'https://www.instagram.com/instechnologyss'} target="_blank">
               <p>
                 <FaSquareInstagram />
               </p>
             </Link>
-            <Link to={'https://www.twitter.com/nepaltechinnov'} target="_blank">
+            <Link to={'https://www.twitter.com/instech'} target="_blank">
               <p>
                 <FaSquareXTwitter />
               </p>

@@ -27,20 +27,22 @@ const Home = () => {
         <>
         <div className='homeContainer'>
         <div className='homeNavbar'><Navbar/></div> {/* fix this later */}
+        {/* <video className='video-bg' autoPlay loop muted playsInline src="/vdo/waveVdo.mp4"></video> */}
+
         
             <div className='container'>
                 <div className='main'>
 
                     <div className="triangleAnimate logo1Animate">
-                        <img src="/img/growth.webp" alt="" />
-                        {/* <img src="/img/circle.png" alt="" /> */}
+                        {/* <img src="/img/growth.webp" alt="" /> */}
+                        <img src="/img/circle.png" alt="" />
                     </div>
                     <div className='homeContents'>
 
-                        <button className='btn mainBtn'>Nepal Tech Innovations</button>   
+                        <button className='btn mainBtn'>Ins Technology</button>   
                        
-                        <h3 className='heading'>Your Premier Digital Solutions <br /> <p className='growthCenter'><span className='growthText' >Partner for </span> IT Excellence.</p></h3>
-                        {/* <h3 className='heading'>Digital Solutions Agency For <br /> <p className='growthCenter'><span className='growthText' >Growth </span> Business</p></h3> */}
+                        {/* <h3 className='heading'>Your Premier Digital Solutions <br /> <p className='growthCenter'><span className='growthText' >Partner for </span> IT Excellence.</p></h3> */}
+                        <h3 className='heading'>Digital Solutions Agency For <br /> <p className='growthCenter'><span className='growthText' >Growth </span> Business</p></h3>
                         {/* <h3 className='heading'><span className='growthText'>Growth</span> Business</h3> */}
                         
                         <h4 className='serviceHeading'>Services We Provide</h4>
@@ -51,7 +53,7 @@ const Home = () => {
                         </span>
                     ))}
                 </div>
-                        <p className='margin_para paras'>Digital Target is focused solely on direct response. Where Technology Pumps Through <br /> Our Veins, Fueling Direct Response Excellence.</p>
+                        {/* <p className='margin_para paras'>Digital Target is focused solely on direct response. Where Technology Pumps Through <br /> Our Veins, Fueling Direct Response Excellence.</p> */}
                         {/* <p className='paras'>Where Technology Pumps Through Our Veins, Fueling Direct Response Excellence.</p> */}
                         {/* <p> We're Here to Help Grow Your Business.</p>  */}
 
@@ -62,8 +64,8 @@ const Home = () => {
                     </div>
 
                     <div className='triangleAnimate logo2Animate'>
-                        {/* <img src="/img/smalltriangleani.png" alt="" /> */}
-                        <img src="/img/love.webp" alt="" />
+                        <img src="/img/smalltriangleani.png" alt="" />
+                        {/* <img src="/img/love.webp" alt="" /> */}
                     </div>
                 </div>
             </div>
@@ -85,5 +87,7 @@ const Home = () => {
 }
 
 export default Home
+
+
 
 

@@ -20,9 +20,9 @@ const ServicePage = () => {
             </div>
             <div className="right_servicePage">
               <h3 className="servicePage_Heading">
-              Elevate Your Digital Presence with Nepal Tech Innovations.
+              Elevate Your Digital Presence with Ins Technology.
               </h3>
-              <p className="servicePage_Para">At Nepal Tech Innovations, we specialize in development, marketing, and design solutions. Our expert team ensures your digital presence shines with innovative web applications, effective marketing strategies, and captivating designs tailored to your brand. Whether you're looking to expand your online reach, increase engagement, or enhance your brand image, we're here to help you achieve your goals.</p>
+              <p className="servicePage_Para">At Ins Technology, we specialize in development, marketing, and design solutions. Our expert team ensures your digital presence shines with innovative web applications, effective marketing strategies, and captivating designs tailored to your brand. Whether you're looking to expand your online reach, increase engagement, or enhance your brand image, we're here to help you achieve your goals.</p>
             </div>
           </div>
         </div>

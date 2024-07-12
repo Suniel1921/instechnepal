@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 // import "./price.css";
 const WordpressPrice = () => {
   const [selectedPlan, setSelectedPlan] = useState("Basic"); // State to keep track of selected plan
@@ -27,13 +27,15 @@ const WordpressPrice = () => {
               className={selectedPlan === "Advanced" ? "active" : ""}
               onClick={() => handlePlanSelect("Advanced")}
             >
-              Advanced
+              {/* Advanced */}
+              Premium
             </button>
             <button
               className={selectedPlan === "Premium" ? "active" : ""}
               onClick={() => handlePlanSelect("Premium")}
             >
-              Premium
+              {/* Premium */}
+              Advanced
             </button>
           </div>
         </div>
@@ -69,7 +71,7 @@ const WordpressPrice = () => {
             <div className="topCardData">
               <h5>Premium Plan</h5>
               <p>Best For Large Enterprises</p>
-              <h3>RS. 45,000</h3>
+              <h3>RS. 30,000</h3>
             </div>
             <hr />
             <div className="featuresCardData">
@@ -100,7 +102,7 @@ const WordpressPrice = () => {
             <div className="topCardData">
               <h5>Advanced Plan</h5>
               <p>Best For Medium Businesses</p>
-              <h3>RS. 30,000</h3>
+              <h3>RS. 45,000</h3>
             </div>
             <hr />
             <div className="featuresCardData">
