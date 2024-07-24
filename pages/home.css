@@ -50,7 +50,8 @@
 
 .homeContainer {
   /* background-image: url('/img/mainbg2.jpg');  */
-  background: url('/img/waveimg1.png');
+  background: url('/img/waveimg2.jpg');
+  /* background: url('/img/waveimg1.png'); */
   background-size: cover; 
   background-position: center; 
   height: 100vh; 

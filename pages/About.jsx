@@ -47,7 +47,7 @@ const About = () => {
        </div>
       </div>
       <div className="services_component">
-        <OurTeam />
+        {/* <OurTeam /> */}
       </div>
     </>
   );

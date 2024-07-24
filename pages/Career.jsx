@@ -8,7 +8,7 @@ const Career = () => {
     <div className='services_component career'>
         <div className="servicesPageNavbar"><Navbar/></div>
         <div className='container'>
-            <h3>welcome to the carrer page of Ins Technology</h3>
+            <h3 className='cHeading'>welcome to the carrer page of Ins Technology</h3>
         <div className='careerContainer'>
             <div className="leftCareer" data-aos="fade-right">
                 <h2 className='careerHeading'>Career</h2>
@@ -24,7 +24,7 @@ const Career = () => {
             <h4>Opened jobs</h4>
             <h2>Let's Find You An Open Jobs</h2>
             <CareerBtn/>
-            <p>Thank you for considering a career at Ins Technology. While we don't have any current openings, <br /> we're always looking for talented individuals to join our team. Stay connected with us for future opportunities!</p>
+            <p className='cPara'>Thank you for considering a career at Ins Technology. While we don't have any current openings, <br /> we're always looking for talented individuals to join our team. Stay connected with us for future opportunities!</p>
         </div>
       
     </div>
