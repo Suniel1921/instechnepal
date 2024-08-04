@@ -12,3 +12,11 @@
   AddType application/json .json
   AddType text/css .css
 </IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|json|css)$">
+    Header set Content-Type application/javascript "expr=-T:application/javascript"
+    Header set Content-Type application/json "expr=-T:application/json"
+    Header set Content-Type text/css "expr=-T:text/css"
+  </FilesMatch>
+</IfModule>
