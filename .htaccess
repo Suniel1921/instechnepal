@@ -7,4 +7,8 @@
   RewriteRule . /index.html [L]
 </IfModule>
 
-AddType application/javascript .js
+<IfModule mod_mime.c>
+  AddType application/javascript .js
+  AddType application/json .json
+  AddType text/css .css
+</IfModule>
